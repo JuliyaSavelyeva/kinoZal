@@ -1,0 +1,45 @@
+html {
+    overflow-y: scroll;
+  
+    font-size: $font-size;
+  }
+  
+  body {
+    font-family: $font-main;
+    font-size: 1rem;
+  }
+  
+  a {
+    color: $color-main;
+  
+    &:hover,
+    &:focus {
+      text-decoration: none;
+  
+      color: $color-accent;
+    }
+  }
+  
+  h1 {
+    margin: -7px 0 ($gap * 3);
+    font-family: $font-header;
+    position: relative;
+    overflow: hidden;
+  
+    @include xs-min {
+      font-size: 3rem;
+    }
+  
+    @include xs {
+      font-size: 2rem;
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      border-bottom: 3px solid rgba(lighten($color-accent, 15%), 0.7);
+      width: 100%;
+      margin-left: 15px;
+      bottom: 8px;
+    }
+  }

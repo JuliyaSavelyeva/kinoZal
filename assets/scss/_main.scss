@@ -1,0 +1,31 @@
+.new-films {
+    .row {
+      margin-right: -$gap / 2;
+      margin-left: -$gap / 2;
+    }
+  }
+  
+.new-films-item {
+  padding-left: $gap / 2;
+  padding-right: $gap / 2;
+
+  .thumbnail {
+    transition: background-color 0.25s;
+  }
+
+  .caption {
+    @include text-shortener;
+  }
+  
+  &:hover {
+    .thumbnail {
+      background-color: $color-accent;
+      border-color: $color-accent;
+    }
+
+    .caption {
+      color: $color-light;
+    }
+  }
+}
+
