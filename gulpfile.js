@@ -11,7 +11,7 @@ gulp.task('sass', async function() {
         .pipe(browserSync.reload({stream: true}))
 });
 
-gulp.task('browserSync', function() {
+gulp.task('browserSync', async function() {
     browserSync({
         server: { baseDir: './'},
         notify: false
@@ -19,7 +19,7 @@ gulp.task('browserSync', function() {
 })
 
 
-gulp.task('watch', function() {
+gulp.task('watch', async function() {
     gulp.watch('./assets/scss/**/*.scss', gulp.parallel('sass'));
 });
 gulp.task('default', gulp.parallel('sass', 'browserSync', 'watch'));

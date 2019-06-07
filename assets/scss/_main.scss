@@ -1,9 +1,9 @@
 .new-films {
-    .row {
-      margin-right: -$gap / 2;
-      margin-left: -$gap / 2;
-    }
+  .row {
+    margin-right: -$gap / 2;
+    margin-left: -$gap / 2;
   }
+}
   
 .new-films-item {
   padding-left: $gap / 2;
@@ -29,3 +29,51 @@
   }
 }
 
+.film-news-post{
+  margin-bottom: $gap * 2;
+
+    .row {
+      margin-right: -16.5px;
+      margin-left: -14.5px;
+    }
+
+    .picture {
+      padding-right: $gap;
+    }
+
+    .text {
+      text-align: justify;
+      position: relative;
+      margin-bottom: 44px;
+    }
+
+    .btn {
+      position: absolute;
+      right: 12px;
+      bottom: 0;
+
+      @include sm {
+        bottom: -45px; 
+      }
+    }
+
+    .thumbnail {
+      transition: background-color 0.25s;
+    }
+
+    &:hover,
+    &:focus{
+      .thumbnail {
+        border-color: rgba(lighten($color-accent, 10%), 0.9);
+        background-color: rgba(lighten($color-accent, 10%), 0.9);
+      }
+
+      .btn {
+        background-color: $color-accent;
+      }
+
+      h3 {
+        color: $color-accent;
+      }
+    }
+}
