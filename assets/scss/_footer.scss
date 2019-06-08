@@ -1,0 +1,32 @@
+.footer {
+	background-color: $color-dark;
+
+	p {
+		margin-bottom: 20px;
+		color: $color-light;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.row {
+		margin-top: 45px;
+		margin-bottom: 22px; 
+	}
+
+	h4 {
+		color: $color-light;
+	}
+
+	.footer-list-ul {
+		list-style-type: none;
+		padding-inline-start: 0;
+
+		a {
+			color: $color-lighten-dark;
+
+			&:hover {
+				color: $color-light;
+			}
+		}
+	}
+}

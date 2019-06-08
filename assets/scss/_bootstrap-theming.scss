@@ -64,6 +64,11 @@
 }
 
 .panel {
+
+  @include xs-min {
+    margin-bottom: 60px;
+  }
+
   margin-bottom: $gap * 2;
 
   border: none;

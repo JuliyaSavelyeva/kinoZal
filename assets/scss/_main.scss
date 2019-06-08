@@ -30,7 +30,15 @@
 }
 
 .film-news-post{
-  margin-bottom: $gap * 2;
+  margin-bottom: 50px;
+
+    &:last-of-type {
+      margin-bottom: 50px;
+
+      @include xs-min {
+        margin-bottom: 90px;
+      }
+    }
 
     .row {
       margin-right: -16.5px;
@@ -41,6 +49,10 @@
       padding-right: $gap;
     }
 
+    img {
+      width: 100%;
+    }
+
     .text {
       text-align: justify;
       position: relative;
@@ -49,7 +61,7 @@
 
     .btn {
       position: absolute;
-      right: 12px;
+      right: 14px;
       bottom: 0;
 
       @include sm {
