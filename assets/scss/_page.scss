@@ -1,0 +1,83 @@
+.film {
+	font-size: 1.2em;
+	margin-bottom: 80px;
+
+		.well{
+			display: flex;
+			justify-content: center;
+
+			p {
+				.badge {
+					font-size: 0.8em;
+				}
+
+				&:not(:last-of-type) {
+					margin-right: 3%;
+				}
+			}
+		}
+
+		.well-lg {
+			border-radius: 0 0 6px 6px;
+			padding: 14px;
+		}
+}
+
+.film-description {
+	margin-bottom: 80px;
+}
+
+.film-comments {
+
+	margin-bottom: 80px;
+
+		.panel-heading {
+			background-color: $color-accent;
+		}
+
+		.panel-title {
+			color: $color-light;
+			font-size: 1rem;
+			letter-spacing: 0;
+		}
+
+		.glyphicon {
+			margin-right: 5px;
+		}
+}
+
+.page-form {
+
+	.form-control {
+		width: 100%;
+		margin-bottom: $gap;
+	}
+
+	input {
+		height: 45px;
+	}
+
+	.form-group {
+		width: 100%;
+	}
+
+	.btn {
+		float: right;
+		margin-bottom: 60px;
+		padding: 9px 13px;
+		
+	}
+
+	.btn {
+		border-radius: 6px;
+	}
+
+	button {
+		font-size: 18px;
+	}
+
+	textarea {
+		resize: vertical;
+	}
+		
+}

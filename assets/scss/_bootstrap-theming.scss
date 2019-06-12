@@ -65,10 +65,6 @@
 
 .panel {
 
-  @include xs-min {
-    margin-bottom: 60px;
-  }
-
   margin-bottom: $gap * 2;
 
   border: none;
@@ -111,4 +107,17 @@
 .btn:active:focus, 
 .btn:focus {
   outline: 0;
+}
+
+.embed-responsive {
+  border-radius: 4px 4px 0 0;
+}
+
+.embed-responsive-16by9 {
+  padding-bottom: 55.55%;
+}
+
+.well {
+  background-color: lighten($color-gray, 8%);
+  border-color: $color-gray;
 }
