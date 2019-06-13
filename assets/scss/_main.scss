@@ -33,9 +33,9 @@
   margin-bottom: 50px;
 
     &:last-of-type {
-      margin-bottom: 50px;
+      margin-bottom: 47px;
 
-      @include xs-min {
+      @include xs {
         margin-bottom: 90px;
       }
     }

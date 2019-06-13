@@ -282,7 +282,7 @@ h2::before
 
 .film-news-post:last-of-type
 {
-    margin-bottom: 50px;
+    margin-bottom: 47px;
 }
 
 .film-news-post .row
@@ -704,10 +704,6 @@ h2::before
     {
         font-size: 2.5rem;
     }
-    .film-news-post:last-of-type
-    {
-        margin-bottom: 90px;
-    }
 }
 
 @media (max-width: 575px)
@@ -725,6 +721,10 @@ h2::before
         font-size: 2.5rem;
 
         letter-spacing: .2em;
+    }
+    .film-news-post:last-of-type
+    {
+        margin-bottom: 90px;
     }
 }
 
