@@ -10,13 +10,13 @@
 - [Jquery]
 - [Bootstrap]
 
-Layout 
+#### Layout built on bootstrap technology, fully responsive.
+#### Pages:
+- Main,
+- Films (contains video, slider)
 
 ### Author
 
 - Juliya Savelyeva
 
-Layout built on bootstrap technology, fully responsive.
-Pages:
-Main,
-Films (contains video, slider)
+
