@@ -9,6 +9,7 @@
 - [BEM methodology](https://en.bem.info/methodology/)
 - Jquery
 - Bootstrap
+- Gulp
 
 #### Layout built on bootstrap technology, fully responsive.
 #### Pages:
