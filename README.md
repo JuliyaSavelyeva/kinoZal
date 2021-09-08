@@ -7,8 +7,8 @@
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Sass (Scss)](https://sass-lang.com/)
 - [BEM methodology](https://en.bem.info/methodology/)
-- [Jquery]
-- [Bootstrap]
+- Jquery
+- Bootstrap
 
 #### Layout built on bootstrap technology, fully responsive.
 #### Pages:
